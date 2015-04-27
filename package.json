@@ -1,0 +1,18 @@
+{
+  "name": "meshblu-llrp",
+  "repository": "octoblu/meshblu-llrp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node command.js",
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "debug": "^2.1.0",
+    "llrp": "git+ssh://git@github.com:GeenenTijd/llrp-nodejs",
+    "meshblu": "^1.9.0"
+  },
+  "keywords": [
+    "meshblu-connector",
+    "gateblu"
+  ]
+}
